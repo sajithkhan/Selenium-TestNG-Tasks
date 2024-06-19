@@ -47,6 +47,13 @@ public class Mobile_Results {
 		}
 	}
 
+	@AfterClass
+	public void quit() {
+		if (driver != null) {
+            driver.quit();
+        	}
+	}
+
 	
 
 }
